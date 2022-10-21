@@ -1,8 +1,10 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AR.Domain
 {
+    [Table("Cliente")]
     public class Cliente
     {
         [Key]
